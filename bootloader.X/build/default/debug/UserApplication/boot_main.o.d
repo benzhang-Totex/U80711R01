@@ -1,0 +1,1 @@
+D:\work_document\2025\U80711R01\U80711R01_apps_1_1_7\bootloader.X\build\default\debug\UserApplication\boot_main.o: boot_main.c boot_updateFirmware.h boot_config.h 24FJ128GL302.h stdlib.h stddef.h string.h ctype.h stdbool.h stdio.h stdint.h pcd_bootloader.h 

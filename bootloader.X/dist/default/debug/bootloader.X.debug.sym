@@ -1,0 +1,226 @@
+W0      @SCRATCH
+W0 -W1  @READ_ROM_MEMORY.P1
+W0 -W2  @MULS4848.P2
+W0 -W1  @DIV3232B.P3
+W0      @delay_ms1.P4
+W0 -W1  @DIVS3232A.P5
+W0 -W1  @READ_PROGRAM_MEMORY.P6
+W0 -W3  @SI64TOF48.P7
+W0 -W2  @DIVFF48.P8
+W0L     _RETURN_
+W0 -W2  @DIVS4848.P1
+W0 -W1  @MUL3232.P2
+W0 -W3  @SI64TOF64.P3
+W0 -W2  @ADDFF48.P4
+W0      @READBITA.P5
+W0 -W1  @MULS3232.P6
+W0      @PRINTF_X_500000_13873_13406.P7
+W0 -W1  @ADDFF.P8
+W0 -W1  @MULFF.P9
+W0 -W3  @MULFF64.P10
+W0L     @SPRINTF.P11
+W0 -W3  @DIVS6464.P12
+W0      @delay_us1.P13
+W0 -W3  @ADDFF64.P14
+W0 -W1  @WRITE_PROGRAM_MEMORY.P15
+W0 -W3  @MULS6464.P16
+W0      @SITOF.P17
+W0 -W2  @MULFF48.P18
+W0 -W3  @DIVFF64.P19
+W0 -W1  @DIVFF.P20
+W1      @SCRATCH
+W1      @PRINTF_X_500000_13873_13406.P1
+W1      @WRITE_PACKED_MEMORY.P2
+W1      @READBITA.P3
+W1      @NVR_WR.P4
+W1      @READ_PACKED_MEMORY.P5
+W2      @READ_PROGRAM_MEMORY.P1
+W2 -W3  @MULFF.P2
+W2 -W3  @MULS3232.P3
+W2 -W3  @DIVS3232A.P4
+W2 -W3  @MUL3232.P5
+W2      @READ_ROM_MEMORY.P6
+W2      @WRITE_PROGRAM_MEMORY.P7
+W2 -W3  @DIV3232B.P8
+W2 -W3  @ADDFF.P9
+W2      @WRITE_PACKED_MEMORY.P10
+W2      @READ_PACKED_MEMORY.P11
+W2 -W3  @DIVFF.P12
+W3 -W5  @MULS4848.P1
+W3 -W5  @DIVS4848.P2
+W3 -W5  @DIVFF48.P3
+W3      @READ_PACKED_MEMORY.P4
+W3      @READ_ROM_MEMORY.P5
+W3      @READ_PROGRAM_MEMORY.P6
+W3      @WRITE_PROGRAM_MEMORY.P7
+W3 -W5  @ADDFF48.P8
+W3 -W5  @MULFF48.P9
+W3      @WRITE_PACKED_MEMORY.P10
+W4 -W7  @DIVS6464.P1
+W4 -W7  @DIVFF64.P2
+W4 -W7  @MULS6464.P3
+W4 -W7  @MULFF64.P4
+W4 -W7  @ADDFF64.P5
+115.0   HLVDEVT
+1D8.3   TSAEVT
+1D8.4   TSBEVT
+271.4   CCP_1_SSDG
+278.4   CCP_1_ASEVT
+278.5   CCP_1_TRCLR
+278.6   CCP_1_TRSET
+295.4   CCP_2_SSDG
+29C.4   CCP_2_ASEVT
+29C.5   CCP_2_TRCLR
+29C.6   CCP_2_TRSET
+2B9.4   CCP_3_SSDG
+2C0.4   CCP_3_ASEVT
+2C0.5   CCP_3_TRCLR
+2C0.6   CCP_3_TRSET
+2EB.0   C1OUT
+2EB.1   C1ENV
+2ED.0   C2OUT
+2ED.1   C2ENV
+2EF.0   C3OUT
+2EF.1   C3ENV
+305.4   CCP_4_SSDG
+30C.4   CCP_4_ASEVT
+30C.5   CCP_4_TRCLR
+30C.6   CCP_4_TRSET
+329.4   CCP_5_SSDG
+330.4   CCP_5_ASEVT
+330.5   CCP_5_TRCLR
+330.6   CCP_5_TRSET
+398     U1MODE
+464.6   LC1OUT
+470.6   LC2OUT
+47C.6   LC3OUT
+488.6   LC4OUT
+867     bootloader_UserApplication.updateShowTime
+868-872 @STRING55
+874-87E @STRING58
+880-881 strtok.save
+882-885 _Randseed
+886-887 rs232_errors
+888-8D9 boot
+8DA-8DB @sprintf_string
+8DC-8DF application_Erase_process.StartAddress
+8DC     bootloader_UserApplication.usart_address
+8DC-8DF checking_updata_status.updata_bootloader
+8DC     Turn_off_all_LEDs.i
+8DD     bootloader_UserApplication.usart_command
+8DE-8E1 Turn_off_all_LEDs.reset_data
+8DE     bootloader_UserApplication.checksum
+8DF     bootloader_UserApplication.code_type
+8E0-8E3 application_Erase_process.EndAddress
+8E0     bootloader_UserApplication.i
+8E0-8E7 checking_updata_status.buff
+8E1     bootloader_UserApplication.y
+8E2-8E9 bootloader_UserApplication.updata_status
+8E4-8E7 application_Erase_process.EraseSizePage
+8E8-8EB application_Erase_process.i
+8EA-911 bootloader_UserApplication.code
+912-915 bootloader_UserApplication.waddr
+916-917 crc16_xmodoem.buf
+916     Receive_CodePacket_Task.rec_buffer
+916     ProgramingProcessShow.bytes
+916-919 ProgramingStatusShow.color_data
+918-919 crc16_xmodoem.crc_default
+918-91B ProgramingProcessShow.color_data
+91A-91B crc16_xmodoem.length
+91A-91B check_checksum.string
+91A     ProgramingStatusShow.bytes
+91C     check_checksum.start_string
+91C     crc16_xmodoem.i
+91C-91D write_E263HEGBK.color
+91D     check_checksum.end_string
+91E-91F crc16_xmodoem.crc
+91E     write_E263HEGBK.txh_time
+91E     check_checksum.checksum
+91F     check_checksum.i
+91F     write_E263HEGBK.txl_time
+920     write_E263HEGBK.bits
+924-925 AsciiToHex.s
+926     AsciiToHex.result
+927     AsciiToHex.i
+2760-27FF _STACK_
+
+ROM Allocation:
+000200  MarqueeLeds_Tab.call
+000222  MarqueeLeds_Tab.data
+000378  @const1743.call
+0003B0  @const1750.call
+0003D8  @const1759.call
+0003EE  @const1761.call
+000404  @const1763.call
+00041A  @const1764.call
+000430  isr
+00044E  @delay_ms1
+00045E  resetRGBLED
+000468  @READBITA
+00047A  write_E263HEGBK
+0004D8  Turn_off_all_LEDs
+0004F4  @READ_PROGRAM_MEMORY
+000522  checking_updata_status
+000556  @NVR_WR
+000582  application_Erase_process
+0005E4  @GETCH_BIU_1
+000608  Receive_CodePacket_Task
+000660  AsciiToHex
+0006B6  @PRINTF_X_500000_13873_13406
+0006EC  @WRITE_PROGRAM_MEMORY
+0007A2  crc16_xmodoem
+0007F4  check_checksum
+00083A  ProgramingStatusShow
+000852  ProgramingProcessShow
+00089C  bootloader_UserApplication
+000D98  @cinit1
+000D98  MAIN
+000E4A  @cinit2
+0135  StrtoulGO
+0135  StrtolGO
+
+Project Directory:
+    D:\work_document\2025\U80711R01\U80711R01_apps_1_1_7\bootloader.X\
+
+Project Files:
+    UserApplication\boot_main.c (link)                      [08-5月-26 16:59  CRC=037D27CE]
+    UserApplication\boot_updateFirmware.h                   [08-5月-26 16:38  CRC=C8535B3A]
+    UserApplication\boot_config.h                           [19-11月-26 14:38  CRC=7254ECD6]
+    C:\Program Files (x86)\PICC\devices\24FJ128GL302.h      [17-7月-24 21:00  CRC=0C586525]
+    C:\Program Files (x86)\PICC\drivers\stdlib.h            [30-6月-20 14:21  CRC=452E14BB]
+    C:\Program Files (x86)\PICC\drivers\stddef.h            [30-1月-19 12:26  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\drivers\string.h            [06-4月-20 08:43  CRC=B1605627]
+    C:\Program Files (x86)\PICC\drivers\ctype.h             [03-1月-08 15:55  CRC=2D1F019F]
+    C:\Program Files (x86)\PICC\drivers\stdbool.h           [17-4月-19 13:48  CRC=969707C0]
+    C:\Program Files (x86)\PICC\drivers\stdio.h             [31-7月-07 15:24  CRC=4E4534F4]
+    C:\Program Files (x86)\PICC\drivers\stdint.h            [13-5月-20 09:33  CRC=4FD89CC0]
+    UserApplication\pcd_bootloader.h                        [25-9月-24 16:44  CRC=27D06EB5]
+
+Source signature=7BFDE4CE
+Program memory checksum=0000
+Hex file CRC=3D32
+
+Units:
+    D:\work_document\2025\U80711R01\U80711R01_apps_1_1_7\bootloader.X\UserApplication\boot_main
+
+Compiler Settings:
+    Processor:      PIC24FJ128GL302
+    Pointer Size:   16
+    ADC Range:      0-4095
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+    ICD Provisions: Yes
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   dist\default\debug\bootloader.xsym
+    Errors:      dist\default\debug\bootloader.X.debug.err
+    Ext Symbols: dist\default\debug\bootloader.X.debug.esym
+    INHX8:       dist\default\debug\bootloader.X.debug.hex
+    Symbols:     dist\default\debug\bootloader.X.debug.sym
+    List:        dist\default\debug\bootloader.X.debug.lst
+    Debug/COFF:  dist\default\debug\bootloader.X.debug.cof
+    Project:     bootloader.X.debug.ccspjt
+    Call Tree:   dist\default\debug\bootloader.X.debug.tre
+    Statistics:  dist\default\debug\bootloader.X.debug.STA

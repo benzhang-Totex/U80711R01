@@ -1,0 +1,5 @@
+Compiling F:\work document\2025\U80711R01\U80711R01_apps_1_1_3\application.X\UserApplication\app_main on 12-8ÔÂ-26 at 11:38
+F:\work document\2025\U80711R01\U80711R01_apps_1_1_3\application.X\UserApplication\app_main.c:0:0:  Info#300  More info:   *3* I/O error 32
+F:\work document\2025\U80711R01\U80711R01_apps_1_1_3\application.X\UserApplication\app_main.c:0:0:  Error#44  Internal Error - Contact CCS  OUTPUT FILE 1 .
+      1 Errors,  0 Warnings.
+Build Failed.

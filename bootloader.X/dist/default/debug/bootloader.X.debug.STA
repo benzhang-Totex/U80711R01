@@ -1,0 +1,85 @@
+
+ROM used:   3768/89856 (4%)
+            3768/89856 (4%) including unused fragments
+
+            0.8 Average locations per line
+            18.2 Average locations per statement
+
+RAM used:   275/8089 (3%) at main() level
+            354/8089 (4%) worst case
+
+Stack used: 66 worst case (28 in main + 38 for interrupts)
+Stack size: 160
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+    4     0   0  $linker.c
+   66    31  15  UserApplication\boot_main.c
+  423   176  85  UserApplication\boot_updateFirmware.h
+  217     0   0  UserApplication\boot_config.h
+ 1564     0   0  C:\Program Files (x86)\PICC\devices\24FJ128GL302.h
+ 1354     0   0  C:\Program Files (x86)\PICC\drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\drivers\stddef.h
+  435     0   0  C:\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
+   39     0   0  C:\Program Files (x86)\PICC\drivers\stdbool.h
+   37     0   0  C:\Program Files (x86)\PICC\drivers\stdio.h
+  195     0   0  C:\Program Files (x86)\PICC\drivers\stdint.h
+   69     0   0  UserApplication\pcd_bootloader.h
+----- -----
+ 4463   207 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     16   0    0             @delay_ms1
+0     36   0    1             @GETCH_BIU_1
+0    376   5    0             @const1679
+0     86   1    5    336  6.7  AsciiToHex
+0     82   1   10    403  8.9  crc16_xmodoem
+0     52   1   12    360  5.0  checking_updata_status
+0     46   1    0             @READ_PROGRAM_MEMORY
+0     70   1    6    302  7.0  check_checksum
+0     10   0    0     47  1.5  resetRGBLED
+0     94   1    5    464  6.6  write_E263HEGBK
+0     18   0    3             @READBITA
+0     28   0    6    155  4.0  Turn_off_all_LEDs
+0     98   1   16    677  9.9  application_Erase_process
+0     44   1    0             @NVR_WR
+0     74   1    6    291  5.6  ProgramingProcessShow
+0     24   0    5    110  3.4  ProgramingStatusShow
+0     88   1    1    695  7.7  Receive_CodePacket_Task
+0   1276  17   58   6709 17.6  bootloader_UserApplication
+0     56   1    0             @const1743
+0     54   1    0             @PRINTF_X_500000_13873_13406
+0     40   1    0             @const1750
+0    182   2    0             @WRITE_PROGRAM_MEMORY
+0     22   0    0             @const1759
+0     22   0    0             @const1761
+0     22   0    0             @const1763
+0     22   0    0             @const1764
+0     30   0    1     74  2.3  isr
+0    288   4    0    796  6.3  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               14
+    Statements              207
+    Comments                90
+    Volume (V)              16031
+    Difficulty (D)          93.5
+    Effort to implement (E) 1499730
+    Time to implement (T)   23 hours, 9 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   41
+    Maintainability (MI)    55
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-001FE   508  0  
+00200-01FFE  3256  4424  
+02000-0FFFE     0  57344  
+10000-15EFE     0  24320  
+
+
+

@@ -1,0 +1,15 @@
+# MPLAB X 编译产物
+**/nbproject/dist/
+**/nbproject/build/
+**/nbproject/private/
+**/*.elf
+**/*.hex
+**/*.o
+**/*.obj
+**/*.lst
+**/*.map
+**/*.dep
+**/*.pre
+**/*.log
+*~
+.DS_Store

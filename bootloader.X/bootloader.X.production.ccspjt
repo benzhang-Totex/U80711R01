@@ -1,0 +1,15 @@
+[PROJECT]
+Target=dist\default\production\bootloader.X.production.hex
+Processor_Text=PIC24FJ128GL302
+CCSVersion=5.118
+Compiler=PCD
+[Target Data]
+FileList=$linker.c
+[dist\default\production\bootloader.X.production.c]
+Type=4
+[mru-list]
+1=dist\default\production\bootloader.X.production.c
+[Units]
+Count=1
+1=UserApplication\boot_main
+Link=1
